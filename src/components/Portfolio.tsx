@@ -71,9 +71,6 @@ const Portfolio = () => {
           
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
             Портфолио
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-amber-600">
-              Успешных Дел
-            </span>
           </h2>
           
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
