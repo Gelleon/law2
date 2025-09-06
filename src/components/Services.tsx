@@ -103,9 +103,6 @@ const Services = () => {
                 ))}
               </ul>
 
-              <button className="w-full bg-slate-100 hover:bg-blue-600 text-slate-700 hover:text-white py-2 rounded-lg font-semibold text-sm transition-all duration-300 group-hover:shadow-lg">
-                Подробнее
-              </button>
             </div>
           ))}
         </div>
