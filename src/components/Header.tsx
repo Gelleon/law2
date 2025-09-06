@@ -58,14 +58,6 @@ const Header = () => {
               Портфолио
             </a>
             <a 
-              href="#process" 
-              className={`transition-colors duration-300 hover:text-amber-500 ${
-                isScrolled ? 'text-slate-700' : 'text-white/90'
-              }`}
-            >
-              Процесс
-            </a>
-            <a 
               href="#contact" 
               className={`transition-colors duration-300 hover:text-amber-500 ${
                 isScrolled ? 'text-slate-700' : 'text-white/90'
@@ -105,9 +97,6 @@ const Header = () => {
               </a>
               <a href="#portfolio" className="text-slate-700 hover:text-amber-500 transition-colors">
                 Портфолио
-              </a>
-              <a href="#process" className="text-slate-700 hover:text-amber-500 transition-colors">
-                Процесс
               </a>
               <a href="#contact" className="text-slate-700 hover:text-amber-500 transition-colors">
                 Контакты
