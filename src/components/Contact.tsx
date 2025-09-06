@@ -59,7 +59,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-slate-900">Адрес</h3>
-                  <p className="text-slate-600">Москва, ул. Тверская, 15, офис 501</p>
+                  <p className="text-slate-600">Туапсе, ул. Красной Армии 32</p>
                   <p className="text-slate-500 text-sm">Центр города, удобная транспортная доступность</p>
                 </div>
               </div>
