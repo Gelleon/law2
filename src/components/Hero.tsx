@@ -54,7 +54,7 @@ const Hero = () => {
         <div className="mb-8 animate-fade-in-up">
           <div className="inline-flex items-center space-x-2 bg-amber-500/20 backdrop-blur-sm rounded-full px-4 py-2 text-amber-300 text-sm font-medium mb-6">
             <Award className="w-4 h-4" />
-            <span>15+ лет успешной практики</span>
+            <span>22+ года успешной практики</span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
