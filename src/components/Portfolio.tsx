@@ -131,20 +131,6 @@ const Portfolio = () => {
             </div>
           ))}
 
-          {/* Add New Case Card */}
-          <div className="group relative bg-gradient-to-br from-amber-50 to-amber-100 rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 cursor-pointer border-2 border-dashed border-amber-300 hover:border-amber-500">
-            <div className="flex flex-col items-center justify-center h-full text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-amber-200 group-hover:bg-amber-300 rounded-full mb-4 transition-colors">
-                <Plus className="w-8 h-8 text-amber-700" />
-              </div>
-              <h3 className="text-xl font-bold text-amber-800 mb-2">
-                Добавить дело
-              </h3>
-              <p className="text-amber-700 text-sm">
-                Поделитесь новым успехом
-              </p>
-            </div>
-          </div>
         </div>
       </div>
 
