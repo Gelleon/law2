@@ -77,7 +77,6 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 text-amber-500 mt-1" />
                 <div>
                   <p className="text-white">Туапсе, ул. Красной Армии, 32</p>
-                  <p className="text-slate-400 text-sm">офис 501, 5 этаж</p>
                 </div>
               </div>
             </div>
