@@ -72,7 +72,7 @@ const Hero = () => {
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
           <button className="group bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl flex items-center space-x-2">
-            <span>Бесплатная консультация</span>
+            <span>Получить консультацию</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
           
