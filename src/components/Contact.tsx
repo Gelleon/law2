@@ -14,7 +14,7 @@ const Contact = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
             Получите
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-amber-600">
-                   Консультацию
+                 Квалифицированную Консультацию
             </span>
           </h2>
           
