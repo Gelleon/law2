@@ -35,16 +35,6 @@ const Footer = () => {
           </div>
 
           {/* Services */}
-          <div>
-            <h4 className="text-lg font-semibold mb-6">Услуги</h4>
-            <ul className="space-y-3">
-              <li><a href="#" className="text-slate-300 hover:text-amber-500 transition-colors">Гражданское право</a></li>
-              <li><a href="#" className="text-slate-300 hover:text-amber-500 transition-colors">Корпоративное право</a></li>
-              <li><a href="#" className="text-slate-300 hover:text-amber-500 transition-colors">Арбитражные споры</a></li>
-              <li><a href="#" className="text-slate-300 hover:text-amber-500 transition-colors">Семейное право</a></li>
-              <li><a href="#" className="text-slate-300 hover:text-amber-500 transition-colors">Недвижимость</a></li>
-            </ul>
-          </div>
 
           {/* Quick Links */}
           <div>
