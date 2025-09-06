@@ -37,13 +37,6 @@ const Footer = () => {
           {/* Services */}
 
           {/* Quick Links */}
-          <div>
-            <h4 className="text-lg font-semibold mb-6">Информация</h4>
-            <ul className="space-y-3">
-              <li><a href="#" className="text-slate-300 hover:text-amber-500 transition-colors">О компании</a></li>
-              <li><a href="#" className="text-slate-300 hover:text-amber-500 transition-colors">Наша команда</a></li>
-            </ul>
-          </div>
 
           {/* Contact Info */}
           <div>
