@@ -71,7 +71,7 @@ const Footer = () => {
             <p className="text-slate-400 text-sm">
               © {currentYear} Адвокаты Туапсе. Все права защищены.
             </p>
-                        <div className="flex space-x-6 mt-4 md:mt-0">
+            <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-slate-400 hover:text-amber-500 text-sm transition-colors">
                 Политика конфиденциальности
               </a>
