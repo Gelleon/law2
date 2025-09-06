@@ -36,7 +36,7 @@ const Header = () => {
             <h1 className={`text-2xl font-bold transition-colors duration-500 ${
               isScrolled ? 'text-blue-900' : 'text-white'
             }`}>
-              ЛексПро
+              Адвокаты Туапсе
             </h1>
           </div>
 
