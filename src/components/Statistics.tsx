@@ -59,13 +59,6 @@ const Statistics = () => {
 
   return (
     <section ref={sectionRef} className="py-24 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 relative overflow-hidden">
-      {/* Animated Background */}
-      <div className="absolute inset-0">
-        <div className="absolute top-20 left-20 w-32 h-32 bg-amber-500/10 rounded-full animate-float-slow"></div>
-        <div className="absolute bottom-20 right-20 w-24 h-24 bg-blue-500/10 rounded-full animate-float-medium"></div>
-        <div className="absolute top-1/2 left-1/4 w-16 h-16 bg-purple-500/10 rounded-full animate-float-fast"></div>
-      </div>
-
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <div className="inline-flex items-center space-x-2 bg-amber-500/20 backdrop-blur-sm rounded-full px-4 py-2 text-amber-300 text-sm font-medium mb-6">
