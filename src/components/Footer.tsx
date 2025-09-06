@@ -52,9 +52,6 @@ const Footer = () => {
             <ul className="space-y-3">
               <li><a href="#" className="text-slate-300 hover:text-amber-500 transition-colors">О компании</a></li>
               <li><a href="#" className="text-slate-300 hover:text-amber-500 transition-colors">Наша команда</a></li>
-              <li><a href="#" className="text-slate-300 hover:text-amber-500 transition-colors">Отзывы</a></li>
-              <li><a href="#" className="text-slate-300 hover:text-amber-500 transition-colors">Блог</a></li>
-              <li><a href="#" className="text-slate-300 hover:text-amber-500 transition-colors">Карьера</a></li>
             </ul>
           </div>
 
@@ -79,7 +76,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-amber-500 mt-1" />
                 <div>
-                  <p className="text-white">Москва, ул. Тверская, 15</p>
+                  <p className="text-white">Туапсе, ул. Красной Армии, 32</p>
                   <p className="text-slate-400 text-sm">офис 501, 5 этаж</p>
                 </div>
               </div>
