@@ -12,10 +12,10 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-6">
               <Scale className="w-8 h-8 text-amber-500" />
-              <h3 className="text-2xl font-bold">ЛексПро</h3>
+              <h3 className="text-2xl font-bold">Адвокаты Туапсе</h3>
             </div>
             <p className="text-slate-300 mb-6 leading-relaxed">
-              Профессиональная юридическая компания с 15-летним опытом. 
+              Профессиональная юридическая компания с 22-летним опытом. 
               Защищаем ваши права и интересы на высочайшем уровне.
             </p>
             <div className="flex space-x-4">
