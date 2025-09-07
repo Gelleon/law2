@@ -141,7 +141,7 @@ const Header = () => {
 
       {/* Consultation Popup */}
       {showConsultationPopup && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
+        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/50 backdrop-blur-sm">
           <div className="bg-white rounded-2xl p-8 max-w-sm w-full mx-4 shadow-2xl animate-modal-appear">
             <div className="flex items-center justify-between mb-6">
               <h3 className="text-2xl font-bold text-slate-800">Консультация</h3>
