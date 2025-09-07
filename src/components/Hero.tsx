@@ -1,7 +1,31 @@
-import React from 'react';
-import { Scale, ArrowRight, Award, Users, TrendingUp } from 'lucide-react';
+import React, { useState } from 'react';
+import { Scale, ArrowRight, Award, Users, TrendingUp, MessageCircle, Phone, X } from 'lucide-react';
 
 const Hero = () => {
+  const [showConsultationPopup, setShowConsultationPopup] = useState(false);
+
+  const scrollToPortfolio = () => {
+    const portfolioSection = document.getElementById('portfolio');
+    if (portfolioSection) {
+      portfolioSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleTelegramClick = () => {
+    window.open('https://t.me/your_telegram_username', '_blank');
+    setShowConsultationPopup(false);
+  };
+
+  const handleWhatsAppClick = () => {
+    window.open('https://wa.me/74951234567', '_blank');
+    setShowConsultationPopup(false);
+  };
+
+  const handleCallClick = () => {
+    window.location.href = 'tel:+74951234567';
+    setShowConsultationPopup(false);
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900">
       {/* Animated Background Elements */}
@@ -50,6 +74,53 @@ const Hero = () => {
         </div>
       </div>
 
+      {/* Consultation Popup */}
+      {showConsultationPopup && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
+          <div className="bg-white rounded-2xl p-8 max-w-sm w-full mx-4 shadow-2xl animate-fade-in-up">
+            <div className="flex items-center justify-between mb-6">
+              <h3 className="text-2xl font-bold text-slate-800">Консультация</h3>
+              <button
+                onClick={() => setShowConsultationPopup(false)}
+                className="text-slate-400 hover:text-slate-600 transition-colors"
+              >
+                <X className="w-6 h-6" />
+              </button>
+            </div>
+            
+            <div className="space-y-4">
+              <button
+                onClick={handleTelegramClick}
+                className="w-full flex items-center justify-center space-x-3 bg-blue-500 hover:bg-blue-600 text-white px-6 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+              >
+                <MessageCircle className="w-5 h-5" />
+                <span>Написать в Telegram</span>
+              </button>
+              
+              <button
+                onClick={handleWhatsAppClick}
+                className="w-full flex items-center justify-center space-x-3 bg-green-500 hover:bg-green-600 text-white px-6 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+              >
+                <MessageCircle className="w-5 h-5" />
+                <span>Написать в WhatsApp</span>
+              </button>
+              
+              <button
+                onClick={handleCallClick}
+                className="w-full flex items-center justify-center space-x-3 bg-amber-500 hover:bg-amber-600 text-white px-6 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+              >
+                <Phone className="w-5 h-5" />
+                <span>Позвонить</span>
+              </button>
+            </div>
+            
+            <p className="text-center text-slate-500 text-sm mt-6">
+              Выберите удобный способ связи
+            </p>
+          </div>
+        </div>
+      )}
+
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <div className="mb-8 animate-fade-in-up">
           <div className="inline-flex items-center space-x-2 bg-amber-500/20 backdrop-blur-sm rounded-full px-4 py-2 text-amber-300 text-sm font-medium mb-6">
@@ -71,12 +142,18 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
-          <button className="group bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl flex items-center space-x-2">
+          <button
+            onClick={() => setShowConsultationPopup(true)}
+            className="group bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl flex items-center space-x-2"
+          >
             <span>Получить консультацию</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
           
-          <button className="group bg-white/10 hover:bg-white/20 text-white border-2 border-white/30 hover:border-white/50 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 backdrop-blur-sm">
+          <button 
+            onClick={scrollToPortfolio}
+            className="group bg-white/10 hover:bg-white/20 text-white border-2 border-white/30 hover:border-white/50 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 backdrop-blur-sm"
+          >
             Изучить портфолио
           </button>
         </div>
