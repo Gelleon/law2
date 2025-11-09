@@ -146,31 +146,6 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-          <div className="text-center animate-fade-in-up-delay-1">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-amber-500/20 rounded-full mb-4">
-              <Users className="w-8 h-8 text-amber-400" />
-            </div>
-            <h3 className="text-white font-semibold mb-2">1000+ Клиентов</h3>
-            <p className="text-blue-200 text-sm">Довольных результатом</p>
-          </div>
-          
-          <div className="text-center animate-fade-in-up-delay-2">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-amber-500/20 rounded-full mb-4">
-              <TrendingUp className="w-8 h-8 text-amber-400" />
-            </div>
-            <h3 className="text-white font-semibold mb-2">95% Успеха</h3>
-            <p className="text-blue-200 text-sm">Выигранных дел</p>
-          </div>
-          
-          <div className="text-center animate-fade-in-up-delay-3">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-amber-500/20 rounded-full mb-4">
-              <Award className="w-8 h-8 text-amber-400" />
-            </div>
-            <h3 className="text-white font-semibold mb-2">22+ Лет</h3>
-            <p className="text-blue-200 text-sm">Практики в праве</p>
-          </div>
-        </div>
       </div>
     </section>
   );
