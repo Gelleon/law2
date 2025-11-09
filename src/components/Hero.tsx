@@ -116,11 +116,6 @@ const Hero = () => {
 
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <div className="mb-8 animate-fade-in-up">
-          <div className="inline-flex items-center space-x-2 bg-amber-500/20 backdrop-blur-sm rounded-full px-4 py-2 text-amber-300 text-sm font-medium mb-6">
-            <Award className="w-4 h-4" />
-            <span>22+ года успешной практики</span>
-          </div>
-          
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Защитим Ваши
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">
