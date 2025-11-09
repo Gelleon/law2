@@ -67,13 +67,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* 3D Scales Animation */}
-      <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 pointer-events-none">
-        <div className="scales-container">
-          <Scale className="w-32 h-32 text-amber-400/30 animate-scales-balance" />
-        </div>
-      </div>
-
       {/* Consultation Popup */}
       {showConsultationPopup && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
